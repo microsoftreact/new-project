@@ -7,5 +7,46 @@
 .container {
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(to left, #000, #f00);
+    position: relative;
+}
+
+.box-one,
+.box-two,
+.box-three,
+.box-four {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position: absolute;
+}
+
+.box-two {
+    background-color: blue;
+    right: 0;
+
+}
+
+.box-three {
+    background-color: purple;
+    bottom: 0;
+}
+
+.box-four {
+    background-color: aqua;
+    bottom: 0;
+    right: 0;
+}
+
+.five {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-five {
+    width: 200px;
+    height: 200px;
+    background-color: black;
 }
